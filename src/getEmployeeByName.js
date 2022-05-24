@@ -9,7 +9,5 @@ function getEmployeeByName(employeeName) {
     person.firstName === employeeName || person.lastName === employeeName);
   return people;
 }
-console.log(getEmployeeByName('Nelson'));
-console.log(getEmployeeByName());
 
 module.exports = getEmployeeByName;
