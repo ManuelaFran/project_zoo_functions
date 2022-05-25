@@ -13,7 +13,4 @@ function countAnimals(animal) {
   return species.find((quantSpecies) => quantSpecies.name === specie).residents.length;
 }
 
-// { specie: 'giraffes', sex: 'female' }
-console.log(countAnimals({ specie: 'penguins' }));
-
 module.exports = countAnimals;
